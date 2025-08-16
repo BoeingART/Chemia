@@ -12,7 +12,7 @@ task_type: "regression"
 data:
   source_mode: "single_file"
   single_file_config:
-    main_file_path: "data/reactions.csv"
+    main_file_path: "data/CPA.csv"
     smiles_col: ["Catalyst", "Reactant1", "Reactant2"]
     target_col: "yield"
 
